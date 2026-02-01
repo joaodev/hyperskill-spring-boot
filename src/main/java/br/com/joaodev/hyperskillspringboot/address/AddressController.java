@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentMap;
 @RestController
 public class AddressController {
 
-    final private ConcurrentMap<String, String>  addressBook = new ConcurrentHashMap<>();
+    private final ConcurrentMap<String, String>  addressBook = new ConcurrentHashMap<>();
 
     @GetMapping("/addresses")
     public ConcurrentMap<String, String> getAddresses() {

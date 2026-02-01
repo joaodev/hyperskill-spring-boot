@@ -13,7 +13,7 @@ import java.util.Map;
 @RestController
 public class ImagesController {
 
-    private static final Map<String, BufferedImage> images = Map.of(
+    private final static Map<String, BufferedImage> images = Map.of(
             "green", createImage(Color.GREEN),
             "magenta", createImage(Color.MAGENTA)
     );
