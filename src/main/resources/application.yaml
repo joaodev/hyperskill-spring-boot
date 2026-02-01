@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: hyperskill-spring-boot
+  web:
+    error:
+      include-message: always
